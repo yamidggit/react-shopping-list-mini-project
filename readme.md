@@ -34,13 +34,13 @@ npm run webpack-dev-server
 
 This shopping list application will have the following components:
 
-1-<App />: the App component will be the top level component that is responsible for rendering 
-all the other components. <App /> will take the entire application state Map as a prop.
+1- The App component will be the top level component that is responsible for rendering 
+all the other components. It will take the entire application state Map as a prop.
 
-2-<ShoppingList />: The ShoppingList component will be responsible for displaying the name of 
+2- The ShoppingList component will be responsible for displaying the name of 
 the list and rendering Item components for each item in the list. 
-<ShoppingList /> will take two props: name for the name of the list and items, which will be an immutable List.
+It will take two props: name for the name of the list and items, which will be an immutable List.
 
-3-<Item />: the Item component will be responsible for rendering the name of the item,
+3- The Item component will be responsible for rendering the name of the item,
 the quantity to purchase, and it should be styled differently based on whether the
 item has been purchased already or not. (item purchased is green and item no purchased is red)
