@@ -1,0 +1,11 @@
+.item{
+   &.purchased { 
+       color: green;
+   }
+   &.not_purchased{
+       color: red;
+   }
+   
+   margin-bottom: 10px;
+
+}
